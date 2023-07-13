@@ -43,4 +43,4 @@ for (const item of items) {
     })
 }
 
-fs.writeFileSync('redirects.json', JSON.stringify(redirects, null, 2))
+fs.writeFileSync('redirects.json', JSON.stringify({ redirects }, null, 2))
